@@ -8,19 +8,21 @@ import ContactFromEmail from "@/email/contact-form-email";
 const resend = new Resend(process.env.RESEND_API_KEY);
 
 export const sendEmail = async (formData: FormData) => {
+  let data;
+
   const email = formData.get("senderEmail");
   const message = formData.get("message");
 
-  if (!validateFormString(email, 50)) {
+  if (!validateFormString(email, 100)) {
     throw new Error("Invalid email");
   }
 
-  if (!validateFormString(message, 500)) {
+  if (!validateFormString(message, 1000)) {
     throw new Error("Invalid message");
   }
 
   try {
-    await resend.emails.send({
+    data = await resend.emails.send({
       from: "Contact Form <" + email + ">",
       to: "dionmaxfn+resend@gmail.com",
       subject: "Portfolio Contact Form",
@@ -33,4 +35,6 @@ export const sendEmail = async (formData: FormData) => {
   } catch (error: unknown) {
     return getErrorMessage(error);
   }
+
+  return data;
 };
