@@ -21,7 +21,13 @@ jobs:
       - name: Build
         run: |
           npm ci
-          # configure the build here
+          npm run build
+          npm run export
+          touch out/.nojekyll
 
       - name: Deploy
-        # configure an external GitHub Pages deploy workflow here
+        uses: Dionmax/gh-pages-deploy-action@v3
+        with:
+          branch: gh-pages
+          folder: out
+          
