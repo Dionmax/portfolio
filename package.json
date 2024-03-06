@@ -1,15 +1,16 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "https://dionmax.github.io/portfolio",
+  "homepage": "www.dionmax.dev",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
+    "export": "next export",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d app"
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@react-email/components": "^0.0.15",
