@@ -1,9 +1,8 @@
 "use client";
 
-import React, { useContext } from "react";
+import React, { createElement, use } from "react";
 import SectionHeading from "@/components/section-heading";
 import { useSectionInView } from "@/lib/hooks";
-import { experiencesData } from "@/lib/data";
 import {
   VerticalTimeline,
   VerticalTimelineElement,
@@ -11,10 +10,49 @@ import {
 import "react-vertical-timeline-component/style.min.css";
 import { motion } from "framer-motion";
 import { useTheme } from "@/context/theme-context";
+import { useTranslations } from "next-intl";
+
+import { CgWorkAlt } from "react-icons/cg";
+import { LuGraduationCap } from "react-icons/lu";
+import { MdOutlineScience } from "react-icons/md";
+import { TbBrandCSharp } from "react-icons/tb";
 
 export default function Experience() {
   const { ref } = useSectionInView("Experience");
   const { theme } = useTheme();
+
+  const t = useTranslations("experiencies");
+
+  const experiencesData = [
+    {
+      title: t("1.title"),
+      location: t("1.location"),
+      description: t("1.description"),
+      icon: createElement(LuGraduationCap),
+      date: t("1.date"),
+    },
+    {
+      title: t("2.title"),
+      location: t("2.location"),
+      description: t("2.description"),
+      icon: createElement(CgWorkAlt),
+      date: t("2.date"),
+    },
+    {
+      title: t("3.title"),
+      location: t("3.location"),
+      description: t("3.description"),
+      icon: createElement(MdOutlineScience),
+      date: t("3.date"),
+    },
+    {
+      title: t("4.title"),
+      location: t("4.location"),
+      description: t("4.description"),
+      icon: createElement(TbBrandCSharp),
+      date: t("4.date"),
+    },
+  ] as const;
 
   return (
     <motion.section
@@ -25,8 +63,8 @@ export default function Experience() {
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 0.175 }}
     >
-      <SectionHeading>Experience</SectionHeading>
-      <VerticalTimeline lineColor="" animate>
+      <SectionHeading>{t("heading")}</SectionHeading>
+      <VerticalTimeline lineColor="">
         {experiencesData.map((item, index) => (
           <React.Fragment key={index}>
             <VerticalTimelineElement
@@ -49,7 +87,8 @@ export default function Experience() {
               date={item.date}
               icon={item.icon}
               iconStyle={{
-                background: theme == "light" ? "white" : "rgba(255, 255, 255, 0.15)",
+                background:
+                  theme == "light" ? "white" : "rgba(255, 255, 255, 0.15)",
                 fontSize: "1.5rem",
               }}
             >

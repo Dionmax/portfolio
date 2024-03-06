@@ -6,17 +6,20 @@ import { links } from "@/lib/data";
 import Link from "next/link";
 import clsx from "clsx";
 import { useActiveSectionContext } from "@/context/active-section-context";
+import { useTranslations } from "next-intl";
 
 export default function Header() {
   const { activeSection, setActiveSection, setTimeOfLastClick } =
     useActiveSectionContext();
+
+  const t = useTranslations("links");
 
   return (
     <header className="z-[999] relative">
       <motion.div
         className="flex fixed top-0 left-1/2 h-[4.5rem] w-full rounded-none border 
       border-white border-opacity-40 bg-white bg-opacity-80 shadow-lg shadow-black/[0.03] 
-      backdrop-blur-[0.5rem] sm:top-6 sm:h-[3.25rem] sm:w-[36rem] sm:rounded-full 
+      backdrop-blur-[0.5rem] sm:top-6 sm:h-[3.25rem] sm:w-[39rem] sm:rounded-full 
       dark:bg-gray-950 dark:border-black/40 dark:bg-opacity-75
       "
         initial={{ y: -100, x: "-50%", opacity: 0 }}
@@ -37,7 +40,8 @@ export default function Header() {
                 className={clsx(
                   "flex w-full items-center justify-center px-3 py-3 hover:text-gray-950 transition dark:text-gray-500 dark:hover:text-gray-300",
                   {
-                    "text-gray-950 dark:text-gray-200": activeSection === link.name,
+                    "text-gray-950 dark:text-gray-200":
+                      activeSection === link.name,
                   }
                 )}
                 href={link.hash}
@@ -46,11 +50,19 @@ export default function Header() {
                   setTimeOfLastClick(Date.now());
                 }}
               >
-                {link.name}
+                {t(
+                  link.name.toLocaleLowerCase() as
+                    | "projects"
+                    | "about"
+                    | "home"
+                    | "skills"
+                    | "experience"
+                    | "contact"
+                )}
 
                 {activeSection === link.name && (
                   <motion.span
-                    className="bg-gray-100 rounded-full absolute inset-0 -z-10 dark:bg-gray-800"
+                    className="bg-gray-200 rounded-full absolute inset-0 -z-10 dark:bg-gray-800"
                     layoutId="activeSection"
                     transition={{ type: "spring", stiffness: 380, damping: 30 }}
                   ></motion.span>

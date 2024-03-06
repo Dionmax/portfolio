@@ -1,0 +1,81 @@
+{
+  "links": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "skills": "Skills",
+    "experience": "Experience",
+    "contact": "Contact"
+  },
+  "intro": {
+    "description": "Hello, <b>I'm Dionmax.</b> I'm a <b>full-stack developer</b> with <b>4 years</b> of experience.",
+    "contact_me": "Contact me",
+    "contact_me_at": "Please contact me at ",
+    "contact_me_through": " or through this form",
+    "email": "Email",
+    "my_email": "dionmaxfn+portfolio@gmail.com",
+    "message": "Message",
+    "download_cv": "Download CV"
+  },
+  "about": {
+    "heading": "About Me",
+    "description1": "I'm Dionmax. I'm a <b>full-stack developer with 4 years of experience</b> developing for private companies. I enjoy creating websites and applications. My focus is PHP and React.",
+    "description2": "After graduating in <b>Computer Science</b>, I decided to pursue my passion for programming. Before graduating I was already working in a company and soon became a full-stack developer.",
+    "description3": "My favorite part of programming is the <b>problem-solving</b> aspect. I love the feeling of finally finding a solution to a problem. <b>My main stack is <i>React</i>, <i>PHP</i>, <i>SQL</i>.</b>",
+    "description4": "I'm also very familiar with <b><i>TypeScript</i> and <i>Python</i>, as well as <i>C#</i>, <i>Java</i> and <i>C++</i></b>. I'm always looking to learn new technologies. I'm currently looking for a full-time position as a software developer.",
+    "description5": "When I'm not programming, I like to play video games, watch movies and play with my dog. I also like to learn new things.I'm currently learning about  <b>data science</b> so that I can become a professional in the field."
+  },
+  "projects": {
+    "heading": "Projects",
+    "1": {
+      "title": "Coletum",
+      "description": "I worked as a full-stack developer on this project for 2 years. The aim was to collect and sort data for companies."
+    },
+    "2": {
+      "title": "OpenTuna",
+      "description": "I worked as a front-end developer on this project. The aim was to organize and map tuna fishing data for the entire Brazilian coast."
+    },
+    "3": {
+      "title": "PropesqWeb",
+      "description": "I worked as a full-stack developer on this project. Sorting and generating reports on all the fishing data in Brazil."
+    }
+  },
+  "skills": {
+    "heading": "Skills"
+  },
+  "experiencies": {
+    "heading": "Experiences",
+    "1": {
+      "title": "Degree in Computer Science",
+      "location": "Itajaí, SC, Brazil",
+      "description": "Graduated after 5 years of study. I got a remote job before finishing my studies. And I've been studying ever since.",
+      "date": "2017 - 2022"
+    },
+    "2": {
+      "title": "Full-Stack Developer",
+      "location": "Itajaí, SC, Brazil",
+      "description": "I've worked on PHP web projects with Symfony2, projects with Typescript and React, and other functions involving DB with R and SQL.",
+      "date": "2021 - present"
+    },
+    "3": {
+      "title": "Python for analytics and data science",
+      "location": "Data Science Academy",
+      "description": "Data science and machine learning with Python. I learned about data analysis, data visualization and machine learning. As well as the Python libraries Pandas, Numpy, Matplotlib and Seaborn. Also machine learning with Scikit-learn and TensorFlow.",
+      "date": "2023 - 2024"
+    },
+    "4": {
+      "title": "Complete C# course Object-Oriented Programming + Projects",
+      "location": "Udemy Academy",
+      "description": "I learned about object-oriented programming with C#. I learned about classes, objects, inheritance, polymorphism, encapsulation, interfaces, delegates, events, exceptions, collections, lambda expressions, LINQ, Entity Framework, and much more.",
+      "date": "2023 - 2024"
+    }
+  },
+  "button": {
+    "submit": "Submit"
+  },
+  "footer": {
+    "heading": "2024 Dionmax. All rights reserved.",
+    "about": "About this website:",
+    "description": "built with React, Next.js (App Router & Server Actions), Tailwind CSS, Framer Motion, React Email & Resend and TypeScript."
+  }
+}

@@ -1,14 +1,39 @@
 "use client";
 
-import React from "react";
+import React, { use } from "react";
 import SectionHeading from "@/components/section-heading";
-import { projectsData } from "@/lib/data";
 import Project from "@/components/project";
 import { useSectionInView } from "@/lib/hooks";
 import { motion } from "framer-motion";
+import coletumImg from "@/public/coletum.png";
+import opentunaImg from "@/public/opentuna.png";
+import propesqImg from "@/public/propesq.png";
+import { useTranslations } from "next-intl";
 
 export default function Projects() {
   const { ref } = useSectionInView("Projects", 0.5);
+  const t = useTranslations("projects");
+
+  const projectsData = [
+    {
+      title: t("1.title"),
+      description: t("1.description"),
+      tags: ["React", "PHP", "MongoDB", "Postgresql", "Twig", "Symfony"],
+      imageUrl: coletumImg,
+    },
+    {
+      title: t("2.title"),
+      description: t("2.description"),
+      tags: ["React", "PHP", "MongoDB", "Postgresql", "Twig", "Symfony"],
+      imageUrl: opentunaImg,
+    },
+    {
+      title: t("3.title"),
+      description: t("3.description"),
+      tags: ["React", "PHP", "MongoDB", "Postgresql", "Twig", "Symfony"],
+      imageUrl: propesqImg,
+    },
+  ];
 
   return (
     <motion.section
@@ -19,7 +44,7 @@ export default function Projects() {
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 0.175 }}
     >
-      <SectionHeading>My Projects</SectionHeading>
+      <SectionHeading>{t("heading")}</SectionHeading>
       <div>
         {projectsData.map((project, index) => (
           <React.Fragment key={index}>

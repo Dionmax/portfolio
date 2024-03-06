@@ -1,0 +1,81 @@
+{
+  "links": {
+    "home": "Início",
+    "about": "Sobre",
+    "projects": "Projetos",
+    "skills": "Habilidades",
+    "experience": "Experiência",
+    "contact": "Contato"
+  },
+  "intro": {
+    "description": "Olá, <b>eu sou Dionmax.</b> Sou um <b>desenvolvedor Full-stack</b> com <b>4 anos</b> de experiência.",
+    "contact_me": "Entre em contato",
+    "contact_me_at": "Por favor, entre em contato comigo em ",
+    "contact_me_through": " ou através deste formulário",
+    "email": "Email",
+    "my_email": "dionmaxfn+portfolio@gmail.com",
+    "message": "Mensagem",
+    "download_cv": "Baixar CV"
+  },
+  "about": {
+    "heading": "Sobre Mim",
+    "description1": "Eu sou Dionmax. Sou um <b>desenvolvedor full-stack com 4 anos de experiência</b> desenvolvendo para empresas privadas. Eu gosto de criar websites e aplicações. Minha especialidade é PHP e React.",
+    "description2": "Após me formar em <b>Ciência da Computação</b>, decidi seguir minha paixão pela programação. Antes mesmo de me formar, eu já estava trabalhando em uma empresa e logo me tornei um desenvolvedor full-stack.",
+    "description3": "Minha parte favorita da programação é a resolução de problemas. Adoro a sensação de finalmente encontrar uma solução para um problema. <b>Minha principal stack é <i>React</i>, <i>PHP</i>, <i>SQL</i>.</b>",
+    "description4": "Também estou muito familiarizado com <b><i>TypeScript</i> e <i>Python</i>, assim como <i>C#</i>, <i>Java</i> e <i>C++</i></b>. Estou sempre procurando aprender novas tecnologias. Atualmente, estou procurando uma posição em tempo integral como desenvolvedor de software.",
+    "description5": "Quando não estou programando, gosto de jogar videogame, assistir filmes e brincar com meu cachorro. Também gosto de aprender coisas novas. Atualmente, estou aprendendo sobre <b>ciência de dados</b> para me tornar um profissional na área."
+  },
+  "projects": {
+    "heading": "Projetos",
+    "1": {
+      "title": "Coletum",
+      "description": "Trabalhei como desenvolvedor full-stack nesse projeto por 2 anos. O intuito era coletar e ordenar dados para empresas."
+    },
+    "2": {
+      "title": "OpenTuna",
+      "description": "Trabalhei como front-end nesse projeto. O objetivo era organizar e mapear dados da pesca do atum em toda costa brasileira."
+    },
+    "3": {
+      "title": "PropesqWeb",
+      "description": "Trabalhei como full-stack nesse projeto. Ordenando e gerando relatórios sobre os dados de toda pesca no território brasileiro."
+    }
+  },
+  "skills": {
+    "heading": "Habilidades"
+  },
+  "experiencies": {
+    "heading": "Experiência",
+    "1": {
+      "title": "Graduado em Ciência da Computação",
+      "location": "Itajaí, SC, Brazil",
+      "description": "Graduado depois de 5 anos de estudo. Consegui um trabalho remoto antes de terminar os estudos. E segui estudando desde então.",
+      "date": "2017 - 2022"
+    },
+    "2": {
+      "title": "Desenvolvedor Full-Stack",
+      "location": "Orlando, FL",
+      "description": "Atuei no desenvolvimento em projetos web PHP com Symfony2, projetos com Typescript e React, e outras funções envolvendo BD com R e SQL.",
+      "date": "2019 - 2023"
+    },
+    "3": {
+      "title": "Python para Análise de Dados e Ciência de Dados",
+      "location": "Data Science Academy",
+      "description": "Ciência de dados e aprendizado de máquina com Python. Eu aprendi sobre análise de dados, visualização de dados e aprendizado de máquina. Assim como as bibliotecas Python Pandas, Numpy, Matplotlib e Seaborn. Também sobre aprendizado de máquina com Scikit-learn e TensorFlow.",
+      "date": "2023 - 2024"
+    },
+    "4": {
+      "title": "Curso C# complete Programação Orientada a Objetos + Projetos",
+      "location": "Udemy Academy",
+      "description": "Aprendi sobre programação orientada a objetos com C#. Aprendi sobre classes, objetos, herança, polimorfismo, encapsulamento, interfaces, delegates, eventos, exceções, coleções, expressões lambda, LINQ, Entity Framework, e muito mais.",
+      "date": "2019"
+    }
+  },
+  "button": {
+    "submit": "Enviar"
+  },
+  "footer": {
+    "heading": "2024 Dionmax. Todos os direitos reservados.",
+    "about": "Sobre este site:",
+    "description": "construído com React, Next.js (App Router & Server Actions), Tailwind CSS, Framer Motion, React Email & Resend e TypeScript."
+  }
+}

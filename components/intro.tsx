@@ -9,10 +9,13 @@ import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
+import { useTranslations } from "next-intl";
 
 export default function Intro() {
   const { ref } = useSectionInView("Home", 0.5);
   const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
+
+  const t = useTranslations("intro");
 
   return (
     <section
@@ -56,13 +59,8 @@ export default function Intro() {
         className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
-      >
-        <span className="font-bold">Hello, I&apos;m Dionmax.</span> I&apos;m a{" "}
-        <span className="font-bold">full-stack developer</span> with{" "}
-        <span className="font-bold">4 years</span> of experience. I enjoy
-        building <span className="italic">sites & apps</span>. My focus is{" "}
-        <span className="underline">PHP, React</span>.
-      </motion.h1>
+        dangerouslySetInnerHTML={{ __html: t.raw("description") }}
+      ></motion.h1>
       <motion.div
         className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium"
         initial={{ opacity: 0, y: 100 }}
@@ -77,7 +75,7 @@ export default function Intro() {
             setTimeOfLastClick(Date.now());
           }}
         >
-          Contact me
+          {t("contact_me")}
           <BsArrowRight className="opacity-70 inline-block w-6 h-6 ml-2 group-hover:translate-x-2 transition" />
         </Link>
 
@@ -88,7 +86,7 @@ export default function Intro() {
           href="/Dionmax_Resume_EN.pdf"
           download
         >
-          Download CV{" "}
+          {t("download_cv")}
           <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
         </a>
 
