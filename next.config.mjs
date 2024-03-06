@@ -4,8 +4,8 @@ const nextIntlConfig = withNextIntl();
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: "standalone",
   reactStrictMode: true,
+  distDir: "build",
   images: {
     remotePatterns: [
       {
@@ -13,6 +13,10 @@ const nextConfig = {
         hostname: "avatars.githubusercontent.com",
       },
     ],
+  },
+  i18n: {
+    locales: ["en", "pt"],
+    defaultLocale: "en",
   },
 };
 
