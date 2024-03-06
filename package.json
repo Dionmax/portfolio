@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "wwww.dionmax.dev",
+  "homepage": "https://dionmax.github.io/portfolio",
   "private": true,
   "scripts": {
     "dev": "next dev",
