@@ -39,6 +39,7 @@ export const skillsData = [
   "GraphQL",
   "PostgreSQL",
   "Python",
+  "R",
   "HTML",
   "Framer Motion",
   "PHP",

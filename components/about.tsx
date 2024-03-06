@@ -7,7 +7,7 @@ import { useSectionInView } from "@/lib/hooks";
 import { useTranslations } from "next-intl";
 
 export default function About() {
-  const { ref } = useSectionInView("About");
+  const { ref } = useSectionInView("About", 0.95);
   const t = useTranslations("about");
 
   return (

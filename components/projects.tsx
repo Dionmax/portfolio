@@ -24,13 +24,13 @@ export default function Projects() {
     {
       title: t("2.title"),
       description: t("2.description"),
-      tags: ["React", "PHP", "MongoDB", "Postgresql", "Twig", "Symfony"],
+      tags: ["React", "NextJs", "MongoDB", "Postgresql", "React-Redux"],
       imageUrl: opentunaImg,
     },
     {
       title: t("3.title"),
       description: t("3.description"),
-      tags: ["React", "PHP", "MongoDB", "Postgresql", "Twig", "Symfony"],
+      tags: ["PHP", "Postgresql", "Twig", "Symfony", "GeoJson", "R", "XML"],
       imageUrl: propesqImg,
     },
   ];
