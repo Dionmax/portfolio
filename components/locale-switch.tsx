@@ -21,7 +21,7 @@ export default function LocaleSwitch() {
         className={`${
           locale === "en"
             ? "text-gray-950 dark:text-gray-50"
-            : "text-gray-400 dark:text-gray-"
+            : "text-gray-400 dark:text-gray-500"
         } hover:text-gray-900 dark:text-gray-50 dark:hover:text-gray-50`}
       >
         EN
