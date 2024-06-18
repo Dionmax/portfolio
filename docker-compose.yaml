@@ -11,4 +11,10 @@ services:
     - type: bind
       source: /var/run/docker.sock
       target: /var/run/docker.sock
-    working_dir: /app
+    working_dir: /
+    environment:
+      - WDS_SOCKET_HOST=127.0.0.1 
+      - CHOKIDAR_USEPOLLING=true
+      - WATCHPACK_POLLING=true 
+    ports:
+      - "3000:3000"

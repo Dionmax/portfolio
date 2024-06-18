@@ -11,11 +11,20 @@ import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
 import { useTranslations } from "next-intl";
 
+// This is a type definition for the locale, to download the resume in the correct language
+type Locale = "en" | "pt";
+import { useLocale } from "next-intl";
+
 export default function Intro() {
   const { ref } = useSectionInView("Home", 0.5);
   const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
 
   const t = useTranslations("intro");
+
+  const locale = useLocale() as Locale;
+
+  const downloadCv =
+    locale === "en" ? "Dionmax_Resume_EN.pdf" : "Dionmax_Resume_PT.pdf";
 
   return (
     <section
@@ -83,7 +92,7 @@ export default function Intro() {
           className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition-all cursor-pointer border border-black/10 
           dark:bg-white/10
           "
-          href="/Dionmax_Resume_EN.pdf"
+          href={`/${downloadCv}`}
           download
         >
           {t("download_cv")}
