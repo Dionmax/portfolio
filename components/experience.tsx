@@ -21,7 +21,7 @@ export default function Experience() {
   const { ref } = useSectionInView("Experience");
   const { theme } = useTheme();
 
-  const t = useTranslations("experiencies");
+  const t = useTranslations("experiences");
 
   const experiencesData = [
     {
@@ -52,6 +52,13 @@ export default function Experience() {
       icon: createElement(TbBrandCSharp),
       date: t("4.date"),
     },
+    {
+      title: t("5.title"),
+      location: t("5.location"),
+      description: t("5.description"),
+      icon: createElement(LuGraduationCap),
+      date: t("5.date"),
+    }
   ] as const;
 
   return (

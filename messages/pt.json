@@ -43,32 +43,38 @@
   "skills": {
     "heading": "Habilidades"
   },
-  "experiencies": {
-    "heading": "Experiência",
+  "experiences": {
+    "heading": "Experiências",
     "1": {
-      "title": "Graduado em Ciência da Computação",
-      "location": "Itajaí, SC, Brazil",
-      "description": "Graduado depois de 5 anos de estudo. Consegui um trabalho remoto antes de terminar os estudos. E segui estudando desde então.",
-      "date": "2017 - 2022"
+      "title": "Curso completo de C# Programação Orientada a Objetos + Projetos",
+      "location": "Udemy Academy",
+      "description": "Aprendi sobre programação orientada a objetos com C#. Aprendi sobre classes, objetos, herança, polimorfismo, encapsulamento, interfaces, delegates, eventos, exceções, coleções, expressões lambda, LINQ, Entity Framework e muito mais.",
+      "date": "2019"
     },
     "2": {
-      "title": "Desenvolvedor Full-Stack",
-      "location": "Orlando, FL",
-      "description": "Atuei no desenvolvimento em projetos web PHP com Symfony2, projetos com Typescript e React, e outras funções envolvendo BD com R e SQL.",
-      "date": "2019 - 2023"
+      "title": "Graduação em Ciência da Computação",
+      "location": "Itajaí, SC, Brasil",
+      "description": "Formei-me após 5 anos de estudo. Consegui um emprego remoto antes de terminar meus estudos. E tenho estudado desde então.",
+      "date": "2017 - 2022"
     },
     "3": {
-      "title": "Python para Análise de Dados e Ciência de Dados",
-      "location": "Data Science Academy",
-      "description": "Ciência de dados e aprendizado de máquina com Python. Eu aprendi sobre análise de dados, visualização de dados e aprendizado de máquina. Assim como as bibliotecas Python Pandas, Numpy, Matplotlib e Seaborn. Também sobre aprendizado de máquina com Scikit-learn e TensorFlow.",
-      "date": "2023 - 2024"
+      "title": "Desenvolvedor Full-Stack",
+      "location": "Itajaí, SC, Brasil",
+      "description": "Trabalhei em projetos web com PHP e Symfony2, projetos com Typescript e React, e outras funções envolvendo banco de dados com R e SQL.",
+      "date": "2019 - 2023"
     },
     "4": {
-      "title": "Curso C# complete Programação Orientada a Objetos + Projetos",
+      "title": "Python para análise de dados e ciência de dados",
+      "location": "Data Science Academy",
+      "description": "Ciência de dados e aprendizado de máquina com Python. Aprendi sobre análise de dados, visualização de dados e aprendizado de máquina. Bem como as bibliotecas Python Pandas, Numpy, Matplotlib e Seaborn. Também aprendi sobre aprendizado de máquina com Scikit-learn e TensorFlow.",
+      "date": "2023 - 2024"
+    },
+    "5": {
+      "title": "Formação Cientista de Dados: O curso completo",
       "location": "Udemy Academy",
-      "description": "Aprendi sobre programação orientada a objetos com C#. Aprendi sobre classes, objetos, herança, polimorfismo, encapsulamento, interfaces, delegates, eventos, exceções, coleções, expressões lambda, LINQ, Entity Framework, e muito mais.",
-      "date": "2019"
-    }
+      "description": "Aprendi sobre Python e R, estatística, aprendizado de máquina, aprendizado profundo, NLP, gráficos, SQL, NoSQL, Spark, AWS, visualização de dados com Power BI e Tableau e várias atividades práticas.",
+      "date": "2024"
+    } 
   },
   "button": {
     "submit": "Enviar"

@@ -43,32 +43,38 @@
   "skills": {
     "heading": "Skills"
   },
-  "experiencies": {
+  "experiences": {
     "heading": "Experiences",
     "1": {
+      "title": "Complete C# course Object-Oriented Programming + Projects",
+      "location": "Udemy Academy",
+      "description": "I learned about object-oriented programming with C#. I learned about classes, objects, inheritance, polymorphism, encapsulation, interfaces, delegates, events, exceptions, collections, lambda expressions, LINQ, Entity Framework, and much more.",
+      "date": "2019"
+    },
+    "2": {
       "title": "Degree in Computer Science",
       "location": "Itajaí, SC, Brazil",
       "description": "Graduated after 5 years of study. I got a remote job before finishing my studies. And I've been studying ever since.",
       "date": "2017 - 2022"
     },
-    "2": {
+    "3": {
       "title": "Full-Stack Developer",
       "location": "Itajaí, SC, Brazil",
       "description": "I've worked on PHP web projects with Symfony2, projects with Typescript and React, and other functions involving DB with R and SQL.",
       "date": "2019 - 2023"
     },
-    "3": {
+    "4": {
       "title": "Python for analytics and data science",
       "location": "Data Science Academy",
       "description": "Data science and machine learning with Python. I learned about data analysis, data visualization and machine learning. As well as the Python libraries Pandas, Numpy, Matplotlib and Seaborn. Also machine learning with Scikit-learn and TensorFlow.",
       "date": "2023 - 2024"
     },
-    "4": {
-      "title": "Complete C# course Object-Oriented Programming + Projects",
+    "5": {
+      "title": "Data Scientist Training: The complete course",
       "location": "Udemy Academy",
-      "description": "I learned about object-oriented programming with C#. I learned about classes, objects, inheritance, polymorphism, encapsulation, interfaces, delegates, events, exceptions, collections, lambda expressions, LINQ, Entity Framework, and much more.",
-      "date": "2019"
-    }
+      "description": "I learned about Python and R, statistics, machine learning, deep learning, NLP, graphs, SQL, NoSQL, Spark, AWS, data visualization with Power BI and Tableau and several practical activities.",
+      "date": "2024"
+    } 
   },
   "button": {
     "submit": "Submit"
