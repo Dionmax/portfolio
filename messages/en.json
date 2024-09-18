@@ -72,9 +72,15 @@
     "5": {
       "title": "Data Scientist Training: The complete course",
       "location": "Udemy Academy",
-      "description": "I learned about Python and R, statistics, machine learning, deep learning, NLP, graphs, SQL, NoSQL, Spark, AWS, data visualization with Power BI and Tableau and several practical activities.",
+      "description": "I've acquired a solid foundation in several areas of Data Science, from predictive modeling with Deep Learning to database techniques and cloud computing. This also includes important fundamentals of statistics, Python, R, SQL, and NoSQL, as well as good practices in data visualization.",
       "date": "2024"
-    } 
+    },
+    "6": {
+      "title": "Data Scientist Training: Advanced Topics",
+      "location": "Udemy Academy",
+      "description": "I learned advanced topics in Data Science, covering important areas such as Explainable Artificial Intelligence (XAI), modeling and evaluation techniques, as well as methods for dealing with unbalanced data sets and multi-label classification.",
+      "date": "2024"
+    }
   },
   "button": {
     "submit": "Submit"

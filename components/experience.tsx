@@ -58,6 +58,13 @@ export default function Experience() {
       description: t("5.description"),
       icon: createElement(LuGraduationCap),
       date: t("5.date"),
+    },
+    {
+      title: t("6.title"),
+      location: t("6.location"),
+      description: t("6.description"),
+      icon: createElement(LuGraduationCap),
+      date: t("6.date"),
     }
   ] as const;
 

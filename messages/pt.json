@@ -72,9 +72,15 @@
     "5": {
       "title": "Formação Cientista de Dados: O curso completo",
       "location": "Udemy Academy",
-      "description": "Aprendi sobre Python e R, estatística, aprendizado de máquina, aprendizado profundo, NLP, gráficos, SQL, NoSQL, Spark, AWS, visualização de dados com Power BI e Tableau e várias atividades práticas.",
+      "description": "Adquiri uma base sólida em diversas áreas da Ciência de Dados, desde modelagem preditiva com Deep Learning até técnicas de banco de dados e computação na nuvem. Isso inclui também fundamentos importantes de estatística, Python, R, SQL, e NoSQL, além de boas práticas em visualização de dados.",
       "date": "2024"
-    } 
+    },
+    "6": {
+      "title": "Formação Cientista de Dados: Tópicos Avançados",
+      "location": "Udemy Academy",
+      "description": "Aprendi tópicos avançados em Ciência de Dados, cobrindo áreas importantes como Inteligência Artificial Explicável (XAI), técnicas de modelagem e avaliação, além de métodos para lidar com conjuntos de dados desbalanceados e classificação multi-label.",
+      "date": "2024"
+    }
   },
   "button": {
     "submit": "Enviar"
