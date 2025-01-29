@@ -80,6 +80,12 @@
       "location": "Udemy Academy",
       "description": "I learned advanced topics in Data Science, covering important areas such as Explainable Artificial Intelligence (XAI), modeling and evaluation techniques, as well as methods for dealing with unbalanced data sets and multi-label classification.",
       "date": "2024"
+    },
+    "7": {
+      "title": "Complete training in Artificial Intelligence and Machine Learning",
+      "location": "Udemy Academy",
+      "description": "I deepened my knowledge in Artificial Intelligence, exploring advanced concepts such as Explainable AI (XAI), strategies for model development and evaluation, as well as specialized approaches for handling imbalanced datasets and multi-label classification tasks.",
+      "date": "2025"
     }
   },
   "button": {
