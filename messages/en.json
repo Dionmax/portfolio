@@ -86,6 +86,12 @@
       "location": "Udemy Academy",
       "description": "I deepened my knowledge in Artificial Intelligence, exploring advanced concepts such as Explainable AI (XAI), strategies for model development and evaluation, as well as specialized approaches for handling imbalanced datasets and multi-label classification tasks.",
       "date": "2025"
+    },
+    "8": {
+      "title": "Software Developer",
+      "location": "El Cajon, California, United States",
+      "description": "Currently developing software using PHP, Symfony5, PostgresSQL.",
+      "date": "2025 - Present"
     }
   },
   "button": {

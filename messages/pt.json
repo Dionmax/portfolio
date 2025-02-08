@@ -86,6 +86,12 @@
       "location": "Udemy Academy",
       "description": "Aprofundei meus conhecimentos em Inteligência Artificial, explorando conceitos avançados como Inteligência Artificial Explicável (XAI), estratégias para modelagem e avaliação de modelos, além de abordagens específicas para tratar conjuntos de dados desbalanceados e tarefas de classificação multi-rótulo.",
       "date": "2025"
+    },
+    "8": {
+      "title": "Desenvolvedor de Software",
+      "location": "El Cajon, Califórnia, Estados Unidos",
+      "description": "Atualmente desenvolvendo software usando PHP, Symfony5, PostgresSQL.",
+      "date": "2025 - Presente"
     }
   },
   "button": {

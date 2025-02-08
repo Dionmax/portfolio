@@ -15,6 +15,7 @@ import { useTranslations } from "next-intl";
 import { CgWorkAlt } from "react-icons/cg";
 import { LuGraduationCap } from "react-icons/lu";
 import { MdOutlineScience } from "react-icons/md";
+import { GiMaterialsScience } from "react-icons/gi";
 import { TbBrandCSharp } from "react-icons/tb";
 
 export default function Experience() {
@@ -25,53 +26,60 @@ export default function Experience() {
 
   const experiencesData = [
     {
-      title: t("1.title"),
-      location: t("1.location"),
-      description: t("1.description"),
-      icon: createElement(LuGraduationCap),
-      date: t("1.date"),
-    },
-    {
-      title: t("2.title"),
-      location: t("2.location"),
-      description: t("2.description"),
+      title: t("8.title"),
+      location: t("8.location"),
+      description: t("8.description"),
       icon: createElement(CgWorkAlt),
-      date: t("2.date"),
-    },
-    {
-      title: t("3.title"),
-      location: t("3.location"),
-      description: t("3.description"),
-      icon: createElement(MdOutlineScience),
-      date: t("3.date"),
-    },
-    {
-      title: t("4.title"),
-      location: t("4.location"),
-      description: t("4.description"),
-      icon: createElement(TbBrandCSharp),
-      date: t("4.date"),
-    },
-    {
-      title: t("5.title"),
-      location: t("5.location"),
-      description: t("5.description"),
-      icon: createElement(LuGraduationCap),
-      date: t("5.date"),
-    },
-    {
-      title: t("6.title"),
-      location: t("6.location"),
-      description: t("6.description"),
-      icon: createElement(LuGraduationCap),
-      date: t("6.date"),
+      date: t("8.date"),
     },
     {
       title: t("7.title"),
       location: t("7.location"),
       description: t("7.description"),
-      icon: createElement(LuGraduationCap),
+      icon: createElement(GiMaterialsScience),
       date: t("7.date"),
+    },
+    {
+      title: t("6.title"),
+      location: t("6.location"),
+      description: t("6.description"),
+      icon: createElement(GiMaterialsScience),
+      date: t("6.date"),
+    },
+    {
+      title: t("5.title"),
+      location: t("5.location"),
+      description: t("5.description"),
+      icon: createElement(GiMaterialsScience),
+      date: t("5.date"),
+    },
+    {
+      title: t("4.title"),
+      location: t("4.location"),
+      description: t("4.description"),
+      icon: createElement(GiMaterialsScience),
+      date: t("4.date"),
+    },
+    {
+      title: t("3.title"),
+      location: t("3.location"),
+      description: t("3.description"),
+      icon: createElement(CgWorkAlt),
+      date: t("3.date"),
+    },
+    {
+      title: t("2.title"),
+      location: t("2.location"),
+      description: t("2.description"),
+      icon: createElement(MdOutlineScience),
+      date: t("2.date"),
+    },
+    {
+      title: t("1.title"),
+      location: t("1.location"),
+      description: t("1.description"),
+      icon: createElement(TbBrandCSharp),
+      date: t("1.date"),
     },
   ] as const;
 
