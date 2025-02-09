@@ -14,7 +14,6 @@ import { useTranslations } from "next-intl";
 
 import { CgWorkAlt } from "react-icons/cg";
 import { LuGraduationCap } from "react-icons/lu";
-import { MdOutlineScience } from "react-icons/md";
 import { GiMaterialsScience } from "react-icons/gi";
 import { TbBrandCSharp } from "react-icons/tb";
 
@@ -71,7 +70,7 @@ export default function Experience() {
       title: t("2.title"),
       location: t("2.location"),
       description: t("2.description"),
-      icon: createElement(MdOutlineScience),
+      icon: createElement(LuGraduationCap),
       date: t("2.date"),
     },
     {
