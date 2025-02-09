@@ -49,49 +49,49 @@
       "title": "Complete C# course Object-Oriented Programming + Projects",
       "location": "Udemy Academy",
       "description": "I learned about object-oriented programming with C#. I learned about classes, objects, inheritance, polymorphism, encapsulation, interfaces, delegates, events, exceptions, collections, lambda expressions, LINQ, Entity Framework, and much more.",
-      "date": "2019"
+      "date": "AUG 2019"
     },
     "2": {
       "title": "Degree in Computer Science",
       "location": "Itajaí, SC, Brazil",
       "description": "Graduated after 5 years of study. I got a remote job before finishing my studies. And I've been studying ever since.",
-      "date": "2017 - 2022"
+      "date": "JAN 2016 - DEC 2021"
     },
     "3": {
       "title": "Full-Stack Developer",
       "location": "Itajaí, SC, Brazil",
       "description": "I've worked on PHP web projects with Symfony2, projects with Typescript and React, and other functions involving DB with R and SQL.",
-      "date": "2019 - 2023"
+      "date": "NOV 2019 - APR 2023"
     },
     "4": {
       "title": "Python for analytics and data science",
       "location": "Data Science Academy",
       "description": "Data science and machine learning with Python. I learned about data analysis, data visualization and machine learning. As well as the Python libraries Pandas, Numpy, Matplotlib and Seaborn. Also machine learning with Scikit-learn and TensorFlow.",
-      "date": "2023 - 2024"
+      "date": "SEP 2023 - FEB 2024"
     },
     "5": {
       "title": "Data Scientist Training: The complete course",
       "location": "Udemy Academy",
       "description": "I've acquired a solid foundation in several areas of Data Science, from predictive modeling with Deep Learning to database techniques and cloud computing. This also includes important fundamentals of statistics, Python, R, SQL, and NoSQL, as well as good practices in data visualization.",
-      "date": "2024"
+      "date": "JUL 2024"
     },
     "6": {
       "title": "Data Scientist Training: Advanced Topics",
       "location": "Udemy Academy",
       "description": "I learned advanced topics in Data Science, covering important areas such as Explainable Artificial Intelligence (XAI), modeling and evaluation techniques, as well as methods for dealing with unbalanced data sets and multi-label classification.",
-      "date": "2024"
+      "date": "SEP 2024"
     },
     "7": {
       "title": "Complete training in Artificial Intelligence and Machine Learning",
       "location": "Udemy Academy",
       "description": "I deepened my knowledge in Artificial Intelligence, exploring advanced concepts such as Explainable AI (XAI), strategies for model development and evaluation, as well as specialized approaches for handling imbalanced datasets and multi-label classification tasks.",
-      "date": "2025"
+      "date": "JAN 2025"
     },
     "8": {
       "title": "Software Developer",
       "location": "El Cajon, California, United States",
       "description": "Currently developing software using PHP, Symfony5, PostgresSQL.",
-      "date": "2025 - Present"
+      "date": "FEB 2025 - Present"
     }
   },
   "button": {

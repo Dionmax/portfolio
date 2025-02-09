@@ -49,49 +49,49 @@
       "title": "Curso completo de C# Programação Orientada a Objetos + Projetos",
       "location": "Udemy Academy",
       "description": "Aprendi sobre programação orientada a objetos com C#. Aprendi sobre classes, objetos, herança, polimorfismo, encapsulamento, interfaces, delegates, eventos, exceções, coleções, expressões lambda, LINQ, Entity Framework e muito mais.",
-      "date": "2019"
+      "date": "AGO 2019"
     },
     "2": {
       "title": "Graduação em Ciência da Computação",
       "location": "Itajaí, SC, Brasil",
       "description": "Formei-me após 5 anos de estudo. Consegui um emprego remoto antes de terminar meus estudos. E tenho estudado desde então.",
-      "date": "2017 - 2022"
+      "date": "JAN 2016 - FEV 2021"
     },
     "3": {
       "title": "Desenvolvedor Full-Stack",
       "location": "Itajaí, SC, Brasil",
       "description": "Trabalhei em projetos web com PHP e Symfony2, projetos com Typescript e React, e outras funções envolvendo banco de dados com R e SQL.",
-      "date": "2019 - 2023"
+      "date": "NOV 2019 - DEZ 2023"
     },
     "4": {
       "title": "Python para análise de dados e ciência de dados",
       "location": "Data Science Academy",
       "description": "Ciência de dados e aprendizado de máquina com Python. Aprendi sobre análise de dados, visualização de dados e aprendizado de máquina. Bem como as bibliotecas Python Pandas, Numpy, Matplotlib e Seaborn. Também aprendi sobre aprendizado de máquina com Scikit-learn e TensorFlow.",
-      "date": "2023 - 2024"
+      "date": "SET 2023 - FEV 2024"
     },
     "5": {
       "title": "Formação Cientista de Dados: O curso completo",
       "location": "Udemy Academy",
       "description": "Adquiri uma base sólida em diversas áreas da Ciência de Dados, desde modelagem preditiva com Deep Learning até técnicas de banco de dados e computação na nuvem. Isso inclui também fundamentos importantes de estatística, Python, R, SQL, e NoSQL, além de boas práticas em visualização de dados.",
-      "date": "2024"
+      "date": "JUL 2024"
     },
     "6": {
       "title": "Formação Cientista de Dados: Tópicos Avançados",
       "location": "Udemy Academy",
       "description": "Aprendi tópicos avançados em Ciência de Dados, cobrindo áreas importantes como Inteligência Artificial Explicável (XAI), técnicas de modelagem e avaliação, além de métodos para lidar com conjuntos de dados desbalanceados e classificação multi-label.",
-      "date": "2024"
+      "date": "SET 2024"
     },
     "7": {
       "title": "Formação Completa Inteligência Artificial e Machine Learning",
       "location": "Udemy Academy",
       "description": "Aprofundei meus conhecimentos em Inteligência Artificial, explorando conceitos avançados como Inteligência Artificial Explicável (XAI), estratégias para modelagem e avaliação de modelos, além de abordagens específicas para tratar conjuntos de dados desbalanceados e tarefas de classificação multi-rótulo.",
-      "date": "2025"
+      "date": "JAN 2025"
     },
     "8": {
       "title": "Desenvolvedor de Software",
       "location": "El Cajon, Califórnia, Estados Unidos",
       "description": "Atualmente desenvolvendo software usando PHP, Symfony5, PostgresSQL.",
-      "date": "2025 - Presente"
+      "date": "FEV 2025 - Presente"
     }
   },
   "button": {
