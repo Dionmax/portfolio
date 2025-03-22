@@ -8,7 +8,9 @@ import { motion } from "framer-motion";
 import coletumImg from "@/public/coletum.png";
 import opentunaImg from "@/public/opentuna.png";
 import propesqImg from "@/public/propesq.png";
+import axispointeImg from "@/public/axispointe.png";
 import { useTranslations } from "next-intl";
+import { url } from "inspector";
 
 export default function Projects() {
   const { ref } = useSectionInView("Projects", 0.5);
@@ -17,21 +19,31 @@ export default function Projects() {
   const projectsData = [
     {
       title: t("1.title"),
+      url: "https://www.web.coletum.com/",
       description: t("1.description"),
       tags: ["React", "PHP", "MongoDB", "Postgresql", "Twig", "Symfony"],
       imageUrl: coletumImg,
     },
     {
       title: t("2.title"),
+      url: "http://www.opentuna.org/",
       description: t("2.description"),
       tags: ["React", "NextJs", "MongoDB", "Postgresql", "React-Redux"],
       imageUrl: opentunaImg,
     },
     {
       title: t("3.title"),
+      url: "http://www.propesq.pesca.sp.gov.br/",
       description: t("3.description"),
       tags: ["PHP", "Postgresql", "Twig", "Symfony", "GeoJson", "R", "XML"],
       imageUrl: propesqImg,
+    },
+    {
+      title: t("4.title"),
+      url: "https://www.axispointe.com/",
+      description: t("4.description"),
+      tags: ["PHP", "Symfony", "Postgresql"],
+      imageUrl: axispointeImg,
     },
   ];
 
