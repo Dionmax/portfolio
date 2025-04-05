@@ -102,7 +102,7 @@
     "submit": "Enviar"
   },
   "footer": {
-    "heading": "2024 Dionmax. Todos os direitos reservados.",
+    "heading": "2025 Dionmax. Todos os direitos reservados.",
     "about": "Sobre este site:",
     "description": "construído com React, Next.js (App Router & Server Actions), Tailwind CSS, Framer Motion, React Email & Resend e TypeScript."
   }
