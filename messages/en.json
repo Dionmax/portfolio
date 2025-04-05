@@ -28,20 +28,20 @@
   "projects": {
     "heading": "Projects",
     "1": {
+      "title": "AxisPointe",
+      "description": "I worked as a full-stack developer on this project. I created detailed reports and graphs on construction data throughout California."
+    },
+    "2": {
       "title": "Coletum",
       "description": "I worked as a full-stack developer on this project for 2 years. The aim was to collect and sort data for companies."
     },
-    "2": {
+    "3": {
       "title": "OpenTuna",
       "description": "I worked as a front-end developer on this project. The aim was to organize and map tuna fishing data for the entire Brazilian coast."
     },
-    "3": {
+    "4": {
       "title": "PropesqWeb",
       "description": "I worked as a full-stack developer on this project. Sorting and generating reports on all the fishing data in Brazil."
-    },
-    "4": {
-      "title": "AxisPointe",
-      "description": "I worked as a full-stack developer on this project. I created detailed reports and graphs on construction data throughout California."
     }
   },
   "skills": {

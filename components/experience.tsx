@@ -18,7 +18,7 @@ import { GiMaterialsScience } from "react-icons/gi";
 import { TbBrandCSharp } from "react-icons/tb";
 
 export default function Experience() {
-  const { ref } = useSectionInView("Experience");
+  const { ref } = useSectionInView("Experience", 0.3);
   const { theme } = useTheme();
 
   const t = useTranslations("experiences");

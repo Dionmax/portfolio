@@ -28,20 +28,20 @@
   "projects": {
     "heading": "Projetos",
     "1": {
+      "title": "AxisPointe",
+      "description": "Trabalhei como full-stack nesse projeto. Criando relatórios detalhados e gráficos sobre os dados de construção em todo território da Califórnia."
+    },
+    "2": {
       "title": "Coletum",
       "description": "Trabalhei como desenvolvedor full-stack nesse projeto por 2 anos. O intuito era coletar e ordenar dados para empresas."
     },
-    "2": {
+    "3": {
       "title": "OpenTuna",
       "description": "Trabalhei como front-end nesse projeto. O objetivo era organizar e mapear dados da pesca do atum em toda costa brasileira."
     },
-    "3": {
+    "4": {
       "title": "PropesqWeb",
       "description": "Trabalhei como full-stack nesse projeto. Ordenando e gerando relatórios sobre os dados de toda pesca no território brasileiro."
-    },
-    "4": {
-      "title": "AxisPointe",
-      "description": "Trabalhei como full-stack nesse projeto. Criando relatórios detalhados e gráficos sobre os dados de construção em todo território da Califórnia."
     }
   },
   "skills": {
