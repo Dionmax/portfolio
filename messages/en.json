@@ -92,10 +92,22 @@
       "date": "JAN 2025"
     },
     "8": {
-      "title": "Software Developer",
+      "title": "Full-Stack Software Developer",
       "location": "El Cajon, California, United States",
-      "description": "Currently developing software using PHP, Symfony5, PostgresSQL.",
+      "description": "I work as a software developer at AxisPointe, where I am responsible for developing new pages and reports with a complete front-end, as well as contributing to various parts of the back-end. I've worked extensively with SQL and developing parts of the database, covering all these fields.",
       "date": "FEB 2025 - Present"
+    },
+    "9": {
+      "title": "Statistics for Data Science and Machine Learning",
+      "location": "Udemy Academy",
+      "description": "Course with more than 160 lessons covering the theory and practice of statistics applied to Data Science and Machine Learning. Python implementations of techniques such as sampling, standardization (z-score), hypothesis testing (ANOVA, Chi Square), attribute selection, treatment of unbalanced data and visualization. Practical applications focusing on supervised and unsupervised learning.",
+      "date": "APR 2025"
+    },
+    "10": {
+      "title": "Data Science Specialization",
+      "location": "Faculdade Líbano",
+      "description": "Lato Sensu Postgraduate Diploma in Data Science, with a focus on advanced data analysis techniques, machine learning algorithms, and practical applications in real-world scenarios. The program includes hands-on projects and case studies to enhance practical skills.",
+      "date": "APR 2025 - NOV 2025"
     }
   },
   "button": {

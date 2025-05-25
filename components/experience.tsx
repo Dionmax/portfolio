@@ -25,6 +25,20 @@ export default function Experience() {
 
   const experiencesData = [
     {
+      title: t("10.title"),
+      location: t("10.location"),
+      description: t("10.description"),
+      icon: createElement(GiMaterialsScience),
+      date: t("10.date"),
+    },
+    {
+      title: t("9.title"),
+      location: t("9.location"),
+      description: t("9.description"),
+      icon: createElement(GiMaterialsScience),
+      date: t("9.date"),
+    },
+    {
       title: t("8.title"),
       location: t("8.location"),
       description: t("8.description"),
