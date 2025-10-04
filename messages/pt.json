@@ -91,24 +91,30 @@
       "description": "Aprofundei meus conhecimentos em Inteligência Artificial, explorando conceitos avançados como Inteligência Artificial Explicável (XAI), estratégias para modelagem e avaliação de modelos, além de abordagens específicas para tratar conjuntos de dados desbalanceados e tarefas de classificação multi-rótulo.",
       "date": "JAN 2025"
     },
-"8": {
-  "title": "Desenvolvedor de Software Full-Stack",
-  "location": "El Cajon, Califórnia, Estados Unidos",
-  "description": "Trabalho como desenvolvedor de software na AxisPointe, onde sou responsável por desenvolver novas páginas e relatórios com um front-end completo, além de contribuir para várias partes do back-end. Trabalhei extensivamente com SQL e no desenvolvimento de partes do banco de dados, abrangendo todas essas áreas.",
-  "date": "FEV 2025 - Presente"
-},
-"9": {
-  "title": "Estatística para Ciência de Dados e Machine Learning",
-  "location": "Udemy Academy",
-  "description": "Curso com mais de 160 aulas cobrindo a teoria e prática de estatística aplicada à Ciência de Dados e Machine Learning. Implementações em Python de técnicas como amostragem, padronização (z-score), testes de hipótese (ANOVA, Qui-Quadrado), seleção de atributos, tratamento de dados desbalanceados e visualização. Aplicações práticas com foco em aprendizado supervisionado e não supervisionado.",
-  "date": "ABR 2025"
-},
-"10": {
-  "title": "Especialização em Ciência de Dados",
-  "location": "Faculdade Líbano",
-  "description": "Diploma de Pós-Graduação Lato Sensu em Ciência de Dados, com foco em técnicas avançadas de análise de dados, algoritmos de aprendizado de máquina e aplicações práticas em cenários do mundo real. O programa inclui projetos práticos e estudos de caso para aprimorar habilidades práticas.",
-  "date": "ABR 2025 - NOV 2025"
-}
+    "8": {
+      "title": "Desenvolvedor de Software Full-Stack",
+      "location": "El Cajon, Califórnia, Estados Unidos",
+      "description": "Trabalho como desenvolvedor de software na AxisPointe, onde sou responsável por desenvolver novas páginas e relatórios com um front-end completo, além de contribuir para várias partes do back-end. Trabalhei extensivamente com SQL e no desenvolvimento de partes do banco de dados, abrangendo todas essas áreas.",
+      "date": "FEV 2025 - Presente"
+    },
+    "9": {
+      "title": "Estatística para Ciência de Dados e Machine Learning",
+      "location": "Udemy Academy",
+      "description": "Curso com mais de 160 aulas cobrindo a teoria e prática de estatística aplicada à Ciência de Dados e Machine Learning. Implementações em Python de técnicas como amostragem, padronização (z-score), testes de hipótese (ANOVA, Qui-Quadrado), seleção de atributos, tratamento de dados desbalanceados e visualização. Aplicações práticas com foco em aprendizado supervisionado e não supervisionado.",
+      "date": "ABR 2025"
+    },
+    "10": {
+      "title": "Especialização em Ciência de Dados",
+      "location": "Faculdade Líbano",
+      "description": "Diploma de Pós-Graduação Lato Sensu em Ciência de Dados, com foco em técnicas avançadas de análise de dados, algoritmos de aprendizado de máquina e aplicações práticas em cenários do mundo real. O programa inclui projetos práticos e estudos de caso para aprimorar habilidades práticas.",
+      "date": "ABR 2025 - NOV 2025"
+    },
+    "11": {
+      "title": "Especialização em Inteligência Artificial",
+      "location": "Faculdade Líbano",
+      "description": "Diploma de Pós-Graduação Lato Sensu em Inteligência Artificial, com foco em técnicas avançadas de aprendizado de máquina, redes neurais e aplicações práticas em diversos setores. O programa inclui projetos práticos e estudos de caso para aprimorar habilidades práticas.",
+      "date": "SET 2025 - MAR 2026"
+    }
   },
   "button": {
     "submit": "Enviar"

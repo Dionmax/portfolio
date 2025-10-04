@@ -16,6 +16,8 @@ import { CgWorkAlt } from "react-icons/cg";
 import { LuGraduationCap } from "react-icons/lu";
 import { GiMaterialsScience } from "react-icons/gi";
 import { TbBrandCSharp } from "react-icons/tb";
+import { MdOutlineScience } from "react-icons/md";
+import { PiSigmaThin } from "react-icons/pi";
 
 export default function Experience() {
   const { ref } = useSectionInView("Experience", 0.3);
@@ -24,6 +26,13 @@ export default function Experience() {
   const t = useTranslations("experiences");
 
   const experiencesData = [
+    {
+      title: t("11.title"),
+      location: t("11.location"),
+      description: t("11.description"),
+      icon: createElement(MdOutlineScience),
+      date: t("11.date"),
+    },
     {
       title: t("10.title"),
       location: t("10.location"),
@@ -35,7 +44,7 @@ export default function Experience() {
       title: t("9.title"),
       location: t("9.location"),
       description: t("9.description"),
-      icon: createElement(GiMaterialsScience),
+      icon: createElement(PiSigmaThin),
       date: t("9.date"),
     },
     {

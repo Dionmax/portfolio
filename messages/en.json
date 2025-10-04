@@ -108,6 +108,12 @@
       "location": "Faculdade Líbano",
       "description": "Lato Sensu Postgraduate Diploma in Data Science, with a focus on advanced data analysis techniques, machine learning algorithms, and practical applications in real-world scenarios. The program includes hands-on projects and case studies to enhance practical skills.",
       "date": "APR 2025 - NOV 2025"
+    },
+    "11": {
+      "title": "Artificial Intelligence Specialization",
+      "location": "Faculdade Líbano",
+      "description": "Lato Sensu Postgraduate Diploma in Artificial Intelligence, with a focus on advanced AI techniques, machine learning algorithms, and practical applications in real-world scenarios. The program includes hands-on projects and case studies to enhance practical skills.",
+      "date": "SEP 2025 - MAR 2026"
     }
   },
   "button": {
