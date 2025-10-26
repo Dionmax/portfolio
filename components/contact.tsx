@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import Script from "next/script";
 import SectionHeading from "./section-heading";
 import { useSectionInView } from "@/lib/hooks";
 import { motion } from "framer-motion";
@@ -30,6 +31,12 @@ export default function Contact() {
         </a>
         {t("contact_me_through")}
       </p>
+      {/* Load Google reCAPTCHA v3 script */}
+      <Script
+        src={`https://www.google.com/recaptcha/api.js?render=${process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY}`}
+        strategy="afterInteractive"
+      />
+
       <form
         className="mt-10 flex flex-col"
         action={async (formData) => {
@@ -64,6 +71,8 @@ export default function Contact() {
           name="message"
           maxLength={500}
         />
+        {/* Hidden field to receive reCAPTCHA token */}
+        <input type="hidden" name="g-recaptcha-response" value="" />
         <SubmitBtn />
       </form>
     </motion.section>
